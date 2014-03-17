@@ -1,0 +1,89 @@
+.row
+  .col-md-6
+    %h2 REGISTER
+    %p
+      Free Registry Through you will be client broader network of lawyers in the country at the lowest cost
+      = form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |u|
+        = devise_error_messages!
+        .container
+          =u.fields_for :customer do |f|
+            .row
+              .col-xs-6
+                = f.text_field :first_name, :placeholder => 'First Name'
+              .col-xs-6
+                = f.text_field :last_name, :placeholder => 'Last Name'
+            .row
+              .col-xs-6
+                = u.email_field :email, :placeholder => 'Email'
+            .row
+              .col-xs-6
+                = u.password_field :password , :placeholder => 'password'
+              .col-xs-6
+                = u.password_field :password_confirmation, :placeholder => 'password confirmation'
+            .row
+              .col-xs-6
+                = f.text_field :ci, :class=> 'inputtext _58mg _5dba', :placeholder => 'C.I/Pasaporte'
+              .col-xs-6
+                = f.text_field :company, :class=> 'inputtext _58mg _5dba', :placeholder => 'Company'
+
+            .row
+              %p Birthday
+              .btn.btn-link{:type => "button", "data-target" => "#myModal", "data-toggle" => "modal"} Why do I need to provide my birthday?
+
+              = content_tag :a, "Modal", :href => "#modal", :class => 'btn', :data => {:toggle => 'modal'}
+
+              = modal_dialog :id => "modal",
+                       :header => { :show_close => true, :dismiss => 'modal', :title => 'Modal header' },
+                               :body   => 'This is the body',
+                               :footer => content_tag(:button, 'Save', :class => 'btn')
+
+              .form-group
+                = f.date_select :date_of_birth, :start_year => 1900, :end_year => Time.now.year-18, prompt: { day: 'Select day', month: 'Select month', year: 'Select year' }
+            .row
+              %p Genero
+              .radio-inline
+                = f.radio_button :gender, 'female'
+                %label Mujer
+              .radio-inline
+                = f.radio_button :gender, 'male'
+                %label Hombre
+
+            .row
+              %p
+                Where you live?
+              .input
+                = f.text_field :address, :placeholder => '*Address(Neighborhood / Street / N #)'
+            .row
+              %label
+                Country
+              .select.session
+                = select_tag :country, options_from_collection_for_select(Country.all, "id", "name",@country.id), :placeholder => 'Country'
+              #states
+                %label
+                  State
+                .select.session
+                  = select_tag :state, options_from_collection_for_select(@country.states, "id", "name"), :placeholder => 'State'
+                #cities
+                  %label
+                    city
+                  .select.session
+                    = f.collection_select :city_id, @cities, "id", "name", :placeholder => 'City'
+            .row
+              %p
+                Phones
+              .col-xs-6
+                = f.text_field :phone, :placeholder => 'Phone'
+              .col-xs-6
+                = f.text_field :cell_phone, :class=> 'inputtext _58mg _5dba', :placeholder => 'cellphone'
+            %p
+              By clicking Sign Up, you agree to our Terms and that you have read our Data Use Policy, including our Cookie Use.
+          %p
+            = u.submit "Sign up"
+
+  .col-md-offset-6
+    %h2 LEGAL SOLUTIONS
+    %p Legal Solutions offers the widest range of lawyers and legal studies from Bolivia to Help to solve your legal problems.
+    = image_tag 'bolivia_color.png'
+
+
+

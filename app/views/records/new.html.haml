@@ -1,0 +1,9 @@
+
+- model_class = Record
+.page-header
+  %h1
+    Adjuntar Archivo
+
+= render :partial => "form"
+
+= link_to t('saltar'), request_path(@record.request_id)

@@ -1,0 +1,23 @@
+%h1 Listing proposal_lawyers
+
+%table
+  %tr
+    %th Presentation
+    %th Description
+    %th Propose terms
+    %th
+    %th
+    %th
+
+  - @proposal_lawyers.each do |proposal_lawyer|
+    %tr
+      %td= proposal_lawyer.presentation
+      %td= proposal_lawyer.description
+      %td= proposal_lawyer.propose_terms
+      %td= link_to 'Show', proposal_lawyer
+      %td= link_to 'Edit', edit_proposal_lawyer_path(proposal_lawyer)
+      %td= link_to 'Destroy', proposal_lawyer, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Proposal lawyer', new_proposal_lawyer_path

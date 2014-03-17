@@ -1,0 +1,55 @@
+
+%p#notice= notice
+
+%p
+  %b CUSTOMER:
+  = @request.customer.full_name
+
+%p
+  %b City CUSTOMER:
+  = @request.customer.country
+
+%p
+  %b Type:
+  = @request.type
+%p
+  %b Speciality area:
+  = @request.speciality_area.name
+%p
+  %b Case about:
+  = @request.case_about
+%p
+  %b Type person:
+  = @request.type_person
+%p
+  %b Monthly income:
+  = @request.monthly_income
+%p
+  %b Description:
+  = @request.description
+%p
+  %b State:
+  = @request.state
+
+#attachment
+  %h3
+    attachments
+  %div
+    %h4
+      = link_to 'Attachment(Opcional)', new_record_path(:id => @request.id)
+    - @request.records.each do |r|
+      %div
+        = link_to r.name, record_path(r)
+
+#proposal_lawyers
+  %h3
+    Propuestas Recibidas
+  %div
+    - @request.proposal_requests.each do |p|
+      %p
+        = link_to p.lawyer.name, show_customer_proposal_lawyer_path(p.proposal_lawyer) unless p.proposal_lawyer.nil?
+
+
+= link_to 'Edit', edit_request_path(@request)
+\|
+= link_to 'Back', requests_path

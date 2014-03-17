@@ -1,0 +1,88 @@
+#registration_container
+  %div
+    ._58mf
+      #reg_box.registration_redesign
+        = form_for @customer do |f|
+          - if @customer.errors.any?
+            #error_explanation
+              %h2= "#{pluralize(@customer.errors.count, "error")} prohibited this customer from being saved:"
+              %ul
+                - @customer.errors.full_messages.each do |msg|
+                  %li= msg
+
+          #reg_form_box.large_form
+            .clearfix._58mh
+              .mrm.lfloat
+                .uiStickyPlaceholderInput.uiStickyPlaceholderEmptyInput
+                  = f.text_field :first_name, :class=> 'inputtext _58mg _5dba', :autofocus => true, :placeholder => 'First Name'
+              .mrm.lfloat
+                .uiStickyPlaceholderInput.uiStickyPlaceholderEmptyInput
+                  = f.text_field :middle_name, :class=> 'inputtext _58mg _5dba', :placeholder => 'Middle Name'
+              .mbm.lfloat
+                .uiStickyPlaceholderInput.uiStickyPlaceholderEmptyInput
+                  = f.text_field :last_name, :class=> 'inputtext _58mg _5dba', :placeholder => 'Last Name'
+            .clearfix._58mh
+              .mrm.lfloat
+                .uiStickyPlaceholderInput.uiStickyPlaceholderEmptyInput
+                  = f.text_field :ci, :class=> 'inputtext _58mg _5dba', :placeholder => 'C.I/Pasaporte'
+              .mbm.lfloat
+                .uiStickyPlaceholderInput.uiStickyPlaceholderEmptyInput
+                  = f.text_field :company, :class=> 'inputtext _58mg _5dba', :placeholder => 'Company'
+            =f.fields_for :user do |user|
+              .clearfix._58mh
+                .mbm
+                  .uiStickyPlaceholderInput.uiStickyPlaceholderEmptyInput
+                    = user.email_field :email, :placeholder => 'Email'
+              .mbm
+                .uiStickyPlaceholderInput.uiStickyPlaceholderEmptyInput
+                  = user.password_field :password , :placeholder => 'password'
+              .mbm
+                .uiStickyPlaceholderInput.uiStickyPlaceholderEmptyInput
+                  = user.password_field :password_confirmation, :placeholder => 'password confirmation'
+
+            .clearfix
+              .mtm.mbs._58mr Fecha de nacimiento
+              .clearfix.mbm._58mq._58mm
+                .lfloat
+                  .plm._58ms.rfloat
+                    <a href="#" ajaxify="/help/ajax/reg_birthday" title="Haz clic para obtener más información" rel="async" role="button">¿Por qué tengo que proporcionar mi fecha de nacimiento?</a>
+
+                  %div
+                    = f.date_select :date_of_birth, :start_year => 1820, :end_year => Time.now.year-18, prompt: { day: 'Select day', month: 'Select month', year: 'Select year' }
+
+            .mvm
+              %div
+                .uiInputLabel.clearfix.inlineBlock
+                  = f.radio_button :gender, 'female'
+                  %label Mujer
+                .uiInputLabel.clearfix.inlineBlock
+                  = f.radio_button :gender, 'male'
+                  %label Hombre
+
+            .mbm
+              .uiStickyPlaceholderInput.uiStickyPlaceholderEmptyInput
+                Donde Vives?
+                = f.text_field :address, :class=> 'inputtext _58mg _5dba', :placeholder => '*Tu direccion(Bario/Calle/N#)'
+            .clearfix._58mh
+              .mrm.lfloat.country
+                .uiStickyPlaceholderInput.uiStickyPlaceholderEmptyInput
+                  = select_tag :country, :class=> 'inputtext _58mg _5dba', :placeholder => '*Pais'
+              .mrm.lfloat.state
+                .uiStickyPlaceholderInput.uiStickyPlaceholderEmptyInput
+                  = select_tag :department, :class=> 'inputtext _58mg _5dba', :placeholder => '*Departamento'
+              .mbm.lfloat.city
+                .uiStickyPlaceholderInput.uiStickyPlaceholderEmptyInput
+                  = f.select :city_id, :class=> 'inputtext _58mg _5dba', :placeholder => '*City'
+            .clearfix._58mh
+              .mrm.lfloat
+                .uiStickyPlaceholderInput.uiStickyPlaceholderEmptyInput
+                  = f.number_field :phone, :placeholder => 'Phone'
+              .mbm.rfloat
+                .uiStickyPlaceholderInput.uiStickyPlaceholderEmptyInput
+                  = f.text_field :cell_phone, :class=> 'inputtext _58mg _5dba', :placeholder => 'cellphone'
+
+            ._58mu
+              %p._58mv
+                Al hacer clic en Abrir una cuenta, aceptas las Condiciones y que has leído la Política de uso de datos, incluido el Uso de cookies.
+            .clearfix
+              = f.submit "Sign up"

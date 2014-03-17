@@ -1,0 +1,12 @@
+-# retorna una lista de tag <option> con ciudades de un departamento
+
+= javascript_include_tag 'listboxes_cities'
+%label
+  State
+.select.session
+  = select_tag :state, options_from_collection_for_select(@country.states, "id", "name"), :placeholder => 'State'
+#cities
+  %label
+    city
+  .select.session
+    = select_tag :user_customer_attributes_city_id, options_from_collection_for_select(@cities, "id", "name"), :class=> 'inputtext _58mg _5dba', :placeholder => 'city', :name => "user[customer_attributes][city_id]"

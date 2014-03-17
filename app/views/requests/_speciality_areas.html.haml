@@ -1,0 +1,6 @@
+-# retorna una lista de tag <option> con las areas de especialidad de un practica legal
+%label.session
+  Speciality_area
+.select.session
+  = collection_select :request, :speciality_area_id, @practice_area.speciality_areas, "id", "name", :placeholder => 'Speciality Area'
+

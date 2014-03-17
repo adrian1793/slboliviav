@@ -1,0 +1,26 @@
+= form_for @proposal_lawyer do |f|
+
+  - if @proposal_lawyer.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@proposal_lawyer.errors.count, "error")} prohibited this proposal_lawyer from being saved:"
+      %ul
+        - @proposal_lawyer.errors.full_messages.each do |msg|
+          %li= msg
+
+  %fieldset.inputs
+    %ol
+      %li
+        .field
+          = f.label :presentation
+          = f.text_area :presentation, :placeholder => 'Inicie Aqui... (Salutacion, Breve Historia, Trabajos Relacionados, Otros)'
+        .field
+          = f.label :description
+          = f.text_area :description, :placeholder => 'Inicie Aqui... (Alcance y condiciones Minimas)'
+        .field
+          = f.label :propose_terms
+          = f.text_area :propose_terms, :placeholder => 'Inicie Aqui... (Honorarios, Gastos, Forma de pago)'
+
+        = f.hidden_field :proposal_request_id
+        .actions
+          = f.submit 'Save'
+

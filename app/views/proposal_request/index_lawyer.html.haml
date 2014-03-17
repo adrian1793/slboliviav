@@ -1,0 +1,40 @@
+#tittle_content
+  %h1 Listing Proposal
+- if @proposal_request.empty?
+  .blank_slate_container
+    %span.blank_slate There are no requests yet.
+-else
+  - @proposal_request.each do |proposal|
+    %div
+      %h3
+        = proposal.request.speciality_area.name
+      = proposal.request.description
+      %div
+        %span
+          = #number_to_currency(product.price)
+
+  %table
+    %tr
+      %th Solicitud N#
+      %th Area Legal
+      %th specialidad
+      %th Case about
+      %th Options
+
+
+    - @proposal_request.each do |proposal|
+      - request = proposal.request
+      %tr
+        %td= proposal.id
+
+        %td= request.speciality_area.name
+        %td
+
+        %td= request.case_about.name
+
+        %td= link_to 'Show', proposal_request_show_lawyer_path(:id => proposal.id)
+
+
+%br
+
+= link_to 'New Request', new_request_path, :class => 'button-class'

@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  type: 
+  speciality_area_id: 1
+  case_about: MyString
+  need_help: MyString
+  type_person: MyString
+  monthly_income: 1
+  description: MyText
+
+two:
+  type: 
+  speciality_area_id: 1
+  case_about: MyString
+  need_help: MyString
+  type_person: MyString
+  monthly_income: 1
+  description: MyText

@@ -1,0 +1,127 @@
+= form_for @request do |f|
+  - if @request.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@request.errors.count, 'error')} prohibited this request from being saved:"
+      %ul
+        - @request.errors.full_messages.each do |msg|
+          %li= msg
+  %p
+    Choose the option in which you will be easier to identify your problem
+    .control-group
+      .checkbox.inline
+      = f.radio_button :type, 'Asesoramiento'
+      %label Advice
+      .checkbox.inline
+      = f.radio_button :type, 'Litigio'
+      %label Litigation
+    %hr
+
+  #litigio.control-group.non-visible
+    .input-xxlarge.session
+      = text_field_tag :lawyer_contrario, '', :placeholder => 'Abogado/Estudio Contrario'
+    .input-xxlarge.session
+      = text_field_tag :juzgado, '', :placeholder => 'Juzgado/Corte/Nro Expediente'
+
+  .control-group
+    .checkbox.inline
+    = f.radio_button :type_person, 'Persona Fisica'
+    %label Persona Fisica
+    .checkbox.inline
+    = f.radio_button :type_person, 'Persona Colectiva '
+    %label Persona Colectiva
+
+  .control-group
+    %label.session
+      Practice Area
+    .controls.session
+      = select_tag :practice_area, options_from_collection_for_select(PracticeArea.all, "id", "name",@practice_area.id), :placeholder => 'Practice Area'
+    #speciality_areas
+      %label.session
+        Speciality Area
+      .select.session
+        = f.collection_select :speciality_area_id, @practice_area.speciality_areas, "id", "name", :placeholder => 'Speciality Area'
+
+  .control-group
+    %label.session
+      Case About
+    .input-xxlarge.session
+      = f.text_field :case_about
+
+    %label.session
+      = f.label :monthly_income
+    .input-xxlarge.session
+      = f.number_field :monthly_income
+
+  .control-group
+    %label.session
+    = f.label :description
+  .textarea
+    = f.text_area :description, :placeholder => "!Tell us Write a Brief Description of your legal problem. Please be sure to include names, dates and places", :rows => 5
+
+  //modificado vicente
+  //#div
+  //  .datos_adjuntos
+  //    %h2 Adjuntar Archivo
+  //    = f.fields_for :records do |r|
+  //      .field
+  //        Nombre del Documento
+  //        = r.text_field :name
+  //      .field
+  //        = r.file_field :record
+
+
+  = f.hidden_field :state
+  .actions
+    = f.submit 'Save'
+
+#legu_works
+  %p
+    Legu is a product of our Company, Enterprise for Legal Solutions SL Global (“SL Global” or the “Company”),
+    duly constituted under the laws of the Plurinational State of Bolivia.
+  %p
+    SL Global is a legal advisor. Through the Company, our clients have access to the most extensive network of lawyers to help
+    them achieve their goals and solve their specific legal issues in a inexpensive, fast and efficient way,
+    either through counseling or legal representation from a lawyer or a legal office, studio, consortium or partnership.
+  %p
+    SL Global helps its clients find, evaluate and hire lawyers or legal offices, studios, consortiums or partnerships which
+    are best qualified to provide them counseling or legal representation according to their unique personal, legal,
+    and financial necessities.
+  %p
+    SL GLobal´s advice is free. Our clients do not pay until they hire the services of a lawyer or a legal office, studio,
+    consortium or partnership, based on the proposals submitted by our Company.
+
+
+#juridical_person
+  %p
+    A juridical person, or legal entity such as a firm or Corporate body, that is not a single natural person,
+    but is authorized by law with duties and rights and is recognized as a legal authority having a distinct identity.
+    Examples would include, but are not limited to: corporations, companies, partnerships, unions, joint stock companies,
+    trusts, funds, international organizations, and sovereign States.
+
+#monthly_income
+  %p
+    In order to help our clients to evaluate and hire the best-qualified lawyer or legal office, studio, consortium or partnership
+    according to their legal and financial needs, we need to identify their ability to pay.
+  %p
+    Each lawyer or legal office, studio, consortium or partnership has its own fees or rates,
+    depending on the clientele that it serves. Our Company, Enterprise for Legal Solutions SL Global (“SL Global” or the “Company”),
+    requires the financial information from its clients in order to search for the lawyer or legal office, studio,
+    consortium or partnership, which best fulfills their needs according to their ability to pay.
+
+#privacy_policy
+  %p
+    Our Company, Enterprise for Legal Solutions SL Global (“SL Global” or the “Company”) will not trade, publish,
+    display or expose the information of its clients by safeguarding their reputation and decorum,
+    and by respecting their good name. None of the information described or in any way reported to our Company,
+    including aspects of the client´s personal life that are relevant to provide counseling or legal representation,
+    will be released by SL Global. Client´s communications, correspondence and other private papers that are described
+    or knowledgeable or are in any way held by our Company that are relevant to provide counseling or legal representation,
+    are inviolable and can not be used differently by SL Global; except in the cases provided by law and/or with a written order
+    from a competent Authority. Client´s confidential communications that are described or in any way held by our Company,
+    shall not be disclosed by SL Global without the client´s express consent, but may be presented at trial if SL Global
+    has a serious and legitimate concern.
+
+#time_answer_request
+  %p
+    Our Company, Enterprise for Legal Solutions SL Global (“SL Global” or the “Company”) will respond to your request in 24-48 hours.
+    SL Global may communicate with you sooner if additional information is required regarding your request.

@@ -1,0 +1,106 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require bootstrap_and_overrides
+ *= require_tree .
+ */
+
+body, button, input, label, select, td, textarea {
+    font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+
+}
+ul li {
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style-position: outside;
+}
+body{
+    background-color: #055550;
+    padding-top: 100px;
+}
+
+.loggedout_menubar {
+    margin: 0 auto;
+    padding-top: 13px;
+    width: 980px;
+}
+.inlineBlock{
+  display: inline-block;
+
+}
+.panel_left{
+  width: 600px;
+  vertical-align: top;
+  margin-right: 15px !important;
+}
+.panel_right{
+ width: 380px;
+}
+._5iyx {
+    font-size: 14px;
+    line-height: 29px;
+    margin-top: 40px;
+    text-align: center;
+    word-spacing: -1px;
+}
+.pbm{
+    height: 300px;
+}
+
+#user_customer_attributes_date_of_birth_1i,
+#user_customer_attributes_date_of_birth_2i,
+#user_customer_attributes_date_of_birth_3i
+{
+    width: 100px;
+}
+
+.oPageCentered {
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}
+
+.oNavTablist {
+    display: inline-block;
+}
+
+.oNavTablist li {
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    background: 0;
+    color: #00AEEC;
+    padding: 0;
+    margin: 0;
+}
+
+.oNavTab {
+    -webkit-border-radius: 7px 7px 0 0;
+    -moz-border-radius: 7px 7px 0 0;
+    -ms-border-radius: 7px 7px 0 0;
+    -o-border-radius: 7px 7px 0 0;
+    border-radius: 7px 7px 0 0;
+    font-weight: 400;
+    color: #fff;
+    background: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    height: auto;
+    padding: 12px 12px 9px;
+    position: relative;
+    display: inline-block;
+    line-height: 16px;
+    outline: 0;
+}

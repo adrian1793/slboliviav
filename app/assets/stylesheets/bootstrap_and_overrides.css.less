@@ -1,0 +1,123 @@
+@import "twitter/bootstrap/bootstrap";
+@import "twitter/bootstrap/responsive";
+
+// Set the correct sprite paths
+@iconSpritePath: image-url("twitter/bootstrap/glyphicons-halflings.png");
+@iconWhiteSpritePath: image-url("twitter/bootstrap/glyphicons-halflings-white.png");
+
+// Set the Font Awesome (Font Awesome is default. You can disable by commenting below lines)
+@fontAwesomeEotPath: asset-url("fontawesome-webfont.eot");
+@fontAwesomeEotPath_iefix: asset-url("fontawesome-webfont.eot?#iefix");
+@fontAwesomeWoffPath: asset-url("fontawesome-webfont.woff");
+@fontAwesomeTtfPath: asset-url("fontawesome-webfont.ttf");
+@fontAwesomeSvgPath: asset-url("fontawesome-webfont.svg#fontawesomeregular");
+
+// Font Awesome
+@import "fontawesome/font-awesome";
+
+// Glyphicons
+//@import "twitter/bootstrap/sprites.less";
+
+// Your custom LESS stylesheets goes here
+//
+// Since bootstrap was imported above you have access to its mixins which
+// you may use and inherit here
+//
+// If you'd like to override bootstrap's own variables, you can do so here as well
+// See http://twitter.github.com/bootstrap/customize.html#variables for their names and documentation
+//
+// Example:
+// @linkColor: #ff0000;
+
+@navbarBackground: #fc6705;
+@navbarBackgroundHighlight: #ff3707;
+@navbarText: #eee9e9;
+@navbarLinkColor: #eee;
+
+body{
+  background: #333333;
+  text-align: left;
+  font-size: 11px;
+}
+
+
+
+.flotante
+{
+  position: absolute;
+  display:none;
+  font-family:Arial;
+  font-size:0.8em;
+  width:280px;
+  border:1px solid #808080;
+  background-color:#f1f1f1;
+  padding:5px;
+}
+
+.texto {font-weight:bold;}
+
+
+
+
+.fondo{
+  position: absolute;
+  width: 3000px;
+  height: 3000px;
+  top: 0%;
+  left: 0%;
+  background-color: #000;
+  opacity: .70;
+  z-index: 1;
+}
+
+.cont{
+  position: absolute;
+  width: 500px;
+  height: 250px;
+  margin-top: -125px;
+  margin-left: -250px;
+  top: 50%;
+  left: 50%;
+  background: #0cf;
+  z-index: 2;
+  text-align: center;
+  vertical-align: middle;
+}
+
+a:hover{ cursor: pointer; }
+
+
+
+
+
+
+.navbar-inner{
+  height: 100px;
+  font-size: 11px;
+}
+.navbar.navbar-fluid-top{
+  background-color: #fc6705;
+  margin-bottom: 5px;
+  width: 1100px;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.container-fluid{
+  background: url("fondo2.jpg");
+  background-repeat: repeat;
+  font-size: 11px;
+  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+  width: 1150px;
+  margin-right:auto;
+  margin-left:auto;
+
+}
+
+hr{
+  margin:5px;
+}
+
+
+
+

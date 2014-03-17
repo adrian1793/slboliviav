@@ -1,0 +1,2 @@
+module ProposalLawyersHelper
+end

@@ -1,0 +1,16 @@
+= form_for @record, :html => { :class => 'form-horizontal',:multipart => true } do |f|
+  .control-group
+    = f.label :name, :class => 'control-label'
+    .controls
+      = f.text_field :name, :class => 'text_field'
+  .control-group
+    = f.label :record, :class => 'control-label'
+    .controls
+      = f.file_field :record, :class => 'text_field'
+
+  = f.hidden_field :request_id
+
+  .form-actions
+    = f.submit nil, :class => 'btn btn-primary'
+    = #link_to t('.cancel', :default => t("helpers.links.cancel")), records_path, :class => 'btn'
+

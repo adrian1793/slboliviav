@@ -1,0 +1,31 @@
+- if @requests.empty?
+  .blank_slate_container
+    %span.blank_slate There are no requests yet.
+- else
+  %table
+    %tr
+      %th Type
+      %th Customer
+      %th Speciality area
+      %th Case about
+      %th Need help
+      %th Type person
+      %th Monthly income
+      %th Description
+      %th
+      %th
+      %th
+
+    - @requests.each do |request|
+      %tr
+        %td= request.type
+        %td= request.customer.full_name
+        %td= request.speciality_area.name
+        %td= request.case_about.name
+        %td= request.need_help.name
+        %td= request.type_person
+        %td= request.monthly_income
+        %td= request.description
+        %td= link_to 'Show', request
+        %td= link_to 'Edit', edit_request_path(request)
+        %td= link_to 'Destroy', request, :method => :delete, :data => { :confirm => 'Are you sure?' }

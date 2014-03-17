@@ -1,0 +1,12 @@
+- content_for :scripts do
+  = javascript_include_tag 'listboxes_speciality_areas'
+
+
+
+#tittle_content
+  %h1 New request
+  .tn1 Tengo un problema Legal y nesecito solucionarlo
+
+= render 'form'
+
+= link_to 'Back', requests_path

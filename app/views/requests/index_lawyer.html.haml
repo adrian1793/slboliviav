@@ -1,0 +1,34 @@
+.container
+  .row
+
+  .row
+    .col-md-2
+      .panel.panel-info
+        .panel-heading.text-center.h4 Categorias
+        .panel-body
+          %p
+            - if @requests.empty?
+              .blank_slate_container
+                %span.blank_slate No hay Solicitudes
+            - else
+              - @requests.each do |request|
+                %p= request.type
+    .col-md-8
+      .panel.panel-info
+        .panel-heading.text-center.h4 Trabajos Solicitados
+        .panel-body
+          %p
+            - if @requests.empty?
+              .blank_slate_container
+                %span.blank_slate No hay Solicitudes
+            - else
+              - @requests.each do |request|
+                %p= request.case_about.name
+                %p= link_to 'Show', show_lawyer_request_path(request.id)
+
+            %br
+    .col-md-2
+      .panel.panel-info
+        .panel-heading.text-center.h4 Perfil
+        .panel-body
+          %p Descripcion general del perfil

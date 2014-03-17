@@ -1,0 +1,46 @@
+%p#notice= notice
+
+%h1 Service Proposal.
+
+%div
+  %label
+    %h3 1.- Presentation:
+  = @proposal_lawyer.presentation
+
+%div
+  %label
+    %h3 2.- Contact:
+  %p Incluir datos de contacto
+%div
+  %label
+    %h3 3.- Description:
+  %p
+    = @proposal_lawyer.description
+%div
+  %label
+    %h3 4.- Propose terms:
+  %p= @proposal_lawyer.propose_terms
+%div
+  %label
+    %h3 5.- No existencia de Conficto de Intereses:
+  %p
+    Mi persona y/o los abogados, empleados, oficiales o agentes de nuestro bufete, despacho, estusio, consorcio o sociedad juridica, informamos que, revizados nuestros archivos
+    y/o base de datos, no existe conflicto de intereses  institucionales ni conflicto de interes personal con el usuario o los usuarios. Con relacion a la no existencia de conflicto
+    de intereces institucionales, al momento se esta en condiciones de prestar servicios imparciales y nuestra objetividad para prestar el servicio correspondiente a la socicitud
+    de servicios no se ve, ni podra verse, afectada. Con relacion la no exixtenca de conflictos de interes personal, los intereses privados de mi persona o de nuestros abogados, empleados, oficiales o agentes....
+
+%div
+  %label
+    %h3 5.- Declaracion:
+  %p
+    La presente solicitud de servicios se efectua atraves de la Empresa de Soluciones Legales SL. Global ("SL Global"), que actua como agente
+    que actua como agente intermediaria de servicios legales mediante su software "Legu", Hospedado en la pagina de internet www.leguleyo.com, a objeto
+    de prestar el servicio legal que buscan los usuarios, de acuerdo a sus necesidades personales, legales y financieras unicas, En este Sentido, mi persona o nuestro bufete, despacho,
+    estudio, consorcio o sociedad juridica, se ajusta a todos los terminos establecidos tanto en la declaracion de derechos y responsabidad, La solicitud de Servicios y el contrato Electrolico de servicios.
+
+%div
+  Atentamente.
+  %p
+    = @proposal_lawyer.proposal_request.lawyer.name
+
+= link_to 'Accept', proposal_request_index_lawyer_path

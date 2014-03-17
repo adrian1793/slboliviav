@@ -1,0 +1,67 @@
+.col-md-8
+  .row
+    %p.well
+      La empresa de soluciones legales Sl Global, le hace conocer que atraves de su software LEGU ha recibido una solicitud de asistencia legal
+      por parte de un usuario, para el siguiente caso:
+  .row
+    .well
+      %h3.text-center Solitud Nro.
+      %hr
+      %p El presenta Caso LEgal responde a una solucitud de servicios legales sobre (Descripcion breve del caso)
+      %h4.text-center Informacion general
+      %p
+        AREA LEGAL
+        "dddd"
+      %p
+        ESPECIALIDAD
+        = @request.speciality_area.name
+      %p
+        CASO SOBRE
+        = @request.need_help.name
+
+      %hr
+      %h4.text-center DESCRIPCION DEL CASO LEGAL
+      %p
+        =@request.description
+      %hr
+      %h4.text-center  SERVICIOS REQUERIDOS
+      %p
+        Los servicios legales especificamente requeridos por el
+        %b usuario
+        en el presente caso legal, son los siguientes
+      %ul
+        %li
+          Descripcion 1
+        %li
+          Descripcion 2
+        %li
+          Descripcion 3
+
+      %p
+        Hemos requrido a usted en funcion a las ereas de su especialidad que cubren las necesidades unicas del usuario.
+        Por tal motivo, la Empresa de soluciones legales SL Global solicita muy respetuosamente que en un plazo de
+        %b 4 DIAS HABILES
+        nom pueda hacer conocer su
+        %b Propuesta de servicios
+        en el presente caso a objeto de que la misma sea puesta a dispocision del usuario de <b>LEGU,</b> para su aceptacion, preliminar o definitiva, o rechazo
+      %p
+        En caso de que su propuesta de servivios no sea recibida en el presente caso legal, Nuestra solucitud de propuesta de servicion se considerara declinada
+        y la misma sera retirada de su cuenta Unica de usuario, en caso de recibirse una nueva solucitud de servicios legales, por parte de un usuario de <b>LEGU<b>,
+        cuyas necesidades esten relacionadas con las areas de su especialidad, le haremos conocer la misma tan ronto como sea posible, atraves de su cuenta unica de usuario
+
+      %hr
+      %h4.text-center
+        Documentos adjuntos
+
+      = link_to 'Back', requests_path
+
+.col-md-4
+  .panel.panel-info
+    .panel-heading.text-center.h4 Perfil
+    .panel-body
+      %p Descripcion general del perfil
+
+  .panel.panel-info
+    .panel-heading.text-center.h4 Notificaciones
+    .panel-body
+      %p Alertas
