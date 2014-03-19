@@ -6,6 +6,15 @@ gem 'rails', '4.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'mysql2'
 gem 'carrierwave'
+gem 'devise'
+gem 'haml-rails'
+gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'rails_12factor', group: :production
+gem "pg", :group => :production
+
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -18,19 +27,11 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
+
 gem 'therubyracer'
-gem 'devise'
 gem "less-rails"
 gem 'twitter-bootstrap-rails'
-gem 'haml-rails'
 
-gem 'activeadmin', github: 'gregbell/active_admin'
-
-# Use jquery as the JavaScript library
-gem 'jquery-rails'
-
-gem 'rails_12factor', group: :production
-gem "pg", :group => :production
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
