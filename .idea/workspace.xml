@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea7217fe-7195-4649-9b80-a0324aca4c23" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20131012112207_change_columns_to_customer.rb" afterPath="$PROJECT_DIR$/db/migrate/20131012112207_change_columns_to_customer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/manifest-1a07d7ccc4970e8f9bf5333b4ab9d608.json" afterPath="$PROJECT_DIR$/public/assets/manifest-1a07d7ccc4970e8f9bf5333b4ab9d608.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/slbolivia.iml" afterPath="$PROJECT_DIR$/.idea/slbolivia.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="slbolivia.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395035425454" ignored="false" />
     <file path="/application.css" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395038815734" ignored="false" />
-    <file path="/Dummy.txt" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395371683854" ignored="false" />
+    <file path="/Dummy.txt" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395372605287" ignored="false" />
     <file path="$PROJECT_DIR$/../depot/app/views/layouts/application.html.erb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395096522572" ignored="false" />
     <file path="/application.html.erb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395096417125" ignored="false" />
     <file path="/application_controller.rb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395093403379" ignored="false" />
@@ -28,6 +22,7 @@
     <file path="/products_controller.rb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395094274595" ignored="false" />
     <file path="/_mi_partial.html.erb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395094551206" ignored="false" />
     <file path="$PROJECT_DIR$/../depot/app/views/layouts/_mi_partial.html.erb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395094551206" ignored="false" />
+    <file path="/20131012112207_change_columns_to_customer.rb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395372852281" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +54,16 @@
       <file leaf-file-name="20131012112207_change_columns_to_customer.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/migrate/20131012112207_change_columns_to_customer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="48" selection-start="113" selection-end="113" vertical-scroll-proportion="0.043227665">
+            <state line="2" column="12" selection-start="81" selection-end="81" vertical-scroll-proportion="0.043227665">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20131012111238_rename_city_to_customer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20131012111238_rename_city_to_customer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -300,7 +304,11 @@
       <created>1395349805184</created>
       <updated>1395349805184</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cambios de prueba5">
+      <created>1395372612719</created>
+      <updated>1395372612719</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -327,6 +335,7 @@
     <frame x="64" y="-4" width="1537" height="1205" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32806692" sideWeight="0.49966148" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -341,7 +350,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -389,7 +397,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambios de prueba4" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios de prueba5" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -407,21 +415,17 @@
     <MESSAGE value="cambios de prueba2" />
     <MESSAGE value="cambios de prueba3&#10;" />
     <MESSAGE value="cambios de prueba4" />
+    <MESSAGE value="cambios de prueba5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="2" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0" />
+        <state line="33" column="2" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/requests/_form.html.haml">
@@ -473,7 +477,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="26" selection-start="772" selection-end="772" vertical-scroll-proportion="0.6700288" />
+        <state line="31" column="26" selection-start="772" selection-end="772" vertical-scroll-proportion="0.6700288">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/requests/_form.html.haml">
@@ -493,9 +499,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131012111238_rename_city_to_customer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20131012112207_change_columns_to_customer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="48" selection-start="113" selection-end="113" vertical-scroll-proportion="0.043227665">
+        <state line="2" column="12" selection-start="81" selection-end="81" vertical-scroll-proportion="0.043227665">
           <folding />
         </state>
       </provider>
