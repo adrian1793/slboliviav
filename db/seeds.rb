@@ -3,5 +3,7 @@
 #
 # Examples:
 #
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
+
+  countries =Country.create([{ name: 'Bolivia'},{ name: 'Brazil'}])
+  cities = City.create([{ name: 'Beni', country: countries.first }, { name: 'Santa Cruz', country: countries.first }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
