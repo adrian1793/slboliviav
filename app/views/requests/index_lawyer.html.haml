@@ -23,7 +23,7 @@
                 %span.blank_slate No hay Solicitudes
             - else
               - @requests.each do |request|
-                %p= request.case_about.name
+                %p= request.case_about
                 %p= link_to 'Show', show_lawyer_request_path(request.id)
 
             %br
