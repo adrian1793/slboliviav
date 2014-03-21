@@ -1,7 +1,10 @@
 class TwoModifyTableRequest < ActiveRecord::Migration
   def change
-    change_column :requests, :case_about_id, :integer, null: false
-    change_column :requests, :need_help_id, :integer, null: false
+    remove_column :requests, :case_about_id
+    remove_column :requests, :need_help_id
+
+    add_column :requests, :case_about_id, :integer
+    add_column :requests, :need_help_id, :integer
 
   end
 end
