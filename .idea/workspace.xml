@@ -9,7 +9,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395035425454" ignored="false" />
     <file path="/application.css" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395038815734" ignored="false" />
-    <file path="/Dummy.txt" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395372605287" ignored="false" />
+    <file path="/Dummy.txt" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395373578219" ignored="false" />
     <file path="$PROJECT_DIR$/../depot/app/views/layouts/application.html.erb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395096522572" ignored="false" />
     <file path="/application.html.erb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395096417125" ignored="false" />
     <file path="/application_controller.rb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395093403379" ignored="false" />
@@ -22,7 +22,7 @@
     <file path="/products_controller.rb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395094274595" ignored="false" />
     <file path="/_mi_partial.html.erb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395094551206" ignored="false" />
     <file path="$PROJECT_DIR$/../depot/app/views/layouts/_mi_partial.html.erb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395094551206" ignored="false" />
-    <file path="/20131012112207_change_columns_to_customer.rb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395372852281" ignored="false" />
+    <file path="/20131012112207_change_columns_to_customer.rb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395373561771" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <file leaf-file-name="20131012112207_change_columns_to_customer.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/migrate/20131012112207_change_columns_to_customer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="12" selection-start="81" selection-end="81" vertical-scroll-proportion="0.043227665">
+            <state line="8" column="44" selection-start="305" selection-end="305" vertical-scroll-proportion="0.17291066">
               <folding />
             </state>
           </provider>
@@ -308,7 +308,11 @@
       <created>1395372612719</created>
       <updated>1395372612719</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cambios de prueba6">
+      <created>1395372900846</created>
+      <updated>1395372900846</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -336,7 +340,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32806692" sideWeight="0.49966148" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32806692" sideWeight="0.49966148" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -397,7 +401,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambios de prueba5" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios de prueba6" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -416,6 +420,7 @@
     <MESSAGE value="cambios de prueba3&#10;" />
     <MESSAGE value="cambios de prueba4" />
     <MESSAGE value="cambios de prueba5" />
+    <MESSAGE value="cambios de prueba6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -508,7 +513,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20131012112207_change_columns_to_customer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="81" selection-end="81" vertical-scroll-proportion="0.043227665">
+        <state line="8" column="44" selection-start="305" selection-end="305" vertical-scroll-proportion="0.17291066">
           <folding />
         </state>
       </provider>
