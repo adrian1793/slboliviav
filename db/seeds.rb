@@ -5,5 +5,7 @@
 #
 
   countries =Country.create([{ name: 'Bolivia'},{ name: 'Brazil'}])
-  cities = City.create([{ name: 'Beni', country: countries.first }, { name: 'Santa Cruz', country: countries.first }])
+  states = State.create([{ name: 'Beni', country: countries.first }, { name: 'Santa Cruz', country: countries.first }])
+  City.create([{ name: 'Trinidad', state: states.first }, { name: 'Santa Ana de Yacuma', state: states.first }])
+
 #   Mayor.create(name: 'Emanuel', city: cities.first)

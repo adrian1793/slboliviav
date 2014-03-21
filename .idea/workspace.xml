@@ -9,7 +9,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395035425454" ignored="false" />
     <file path="/application.css" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395038815734" ignored="false" />
-    <file path="/Dummy.txt" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395373940363" ignored="false" />
+    <file path="/Dummy.txt" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395374532826" ignored="false" />
     <file path="$PROJECT_DIR$/../depot/app/views/layouts/application.html.erb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395096522572" ignored="false" />
     <file path="/application.html.erb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395096417125" ignored="false" />
     <file path="/application_controller.rb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395093403379" ignored="false" />
@@ -25,7 +25,7 @@
     <file path="/20131012112207_change_columns_to_customer.rb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395373561771" ignored="false" />
     <file path="/20131101020901_two_modify_table_request.rb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395373665172" ignored="false" />
     <file path="/20140316012407_change_case_about_to_request.rb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395373714111" ignored="false" />
-    <file path="/seeds.rb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395374495296" ignored="false" />
+    <file path="/seeds.rb" changelist="ea7217fe-7195-4649-9b80-a0324aca4c23" time="1395374952223" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <file leaf-file-name="seeds.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="119" selection-start="404" selection-end="404" vertical-scroll-proportion="0.1688103">
+            <state line="6" column="63" selection-start="281" selection-end="281" vertical-scroll-proportion="0.14469454">
               <folding />
             </state>
           </provider>
@@ -389,7 +389,11 @@
       <created>1395373943840</created>
       <updated>1395373943840</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add seeds for init">
+      <created>1395374535471</created>
+      <updated>1395374535471</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -478,7 +482,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambios de prueba788" />
+    <option name="LAST_COMMIT_MESSAGE" value="add seeds for init" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -500,6 +504,7 @@
     <MESSAGE value="cambios de prueba6" />
     <MESSAGE value="cambios de prueba78" />
     <MESSAGE value="cambios de prueba788" />
+    <MESSAGE value="add seeds for init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -600,7 +605,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="119" selection-start="404" selection-end="404" vertical-scroll-proportion="0.1688103">
+        <state line="6" column="63" selection-start="281" selection-end="281" vertical-scroll-proportion="0.14469454">
           <folding />
         </state>
       </provider>
