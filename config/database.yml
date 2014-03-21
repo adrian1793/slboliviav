@@ -29,5 +29,5 @@ test:
 
 production:
   adapter: postgresql
-  database: slbolivia_production
+  database: slbolivia_prosduction
   pool: 5

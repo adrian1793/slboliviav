@@ -21111,20 +21111,6 @@
       <index name="index_users_on_reset_password_token" unique="true" columns="reset_password_token"/>
     </table>
   </data-source>
-  <data-source source="LOCAL" name="Rails slbolivia: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="ca50c209-8f37-4bf1-b6ba-0b4b2f47fa67">
-    <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-    <jdbc-url>jdbc:mysql://127.0.0.1/slbolivia_production</jdbc-url>
-    <user-name>root</user-name>
-    <user-password>dfc7dfd3dfd9dfdbdfc6</user-password>
-    <libraries>
-      <library>
-        <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license_2.txt</url>
-      </library>
-      <library>
-        <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.26-bin_2.jar</url>
-      </library>
-    </libraries>
-  </data-source>
   <data-source source="LOCAL" name="Rails slbolivia: development" product="MySQL" version="5.5.32-0ubuntu0.12.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )" uuid="c302929e-292d-4917-9f5f-48aab4608747">
     <extra-name-characters>#@</extra-name-characters>
     <identifier-quote-string>`</identifier-quote-string>
