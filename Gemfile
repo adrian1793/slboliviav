@@ -12,10 +12,10 @@ gem 'devise'
 gem 'haml-rails'
 gem 'activeadmin', github: 'gregbell/active_admin'
 
-#group :production do
+group :production do
 #  gem 'rails_12factor'
-#  gem "pg"
-#end
+  gem "pg"
+end
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
