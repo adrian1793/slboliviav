@@ -74,12 +74,12 @@ ActiveRecord::Schema.define(version: 20140316012407) do
     t.date     "date_of_birth"
     t.string   "gender"
     t.string   "address"
-    t.integer  "city_id",       null: false
     t.integer  "phone"
     t.string   "cell_phone"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"
+    t.integer  "city_id",       null: false
   end
 
   create_table "lawyers", force: true do |t|
@@ -115,16 +115,6 @@ ActiveRecord::Schema.define(version: 20140316012407) do
     t.string   "name_portuguese"
   end
 
-  create_table "proposal_lawyers", force: true do |t|
-    t.text     "presentation"
-    t.text     "description"
-    t.text     "propose_terms"
-    t.integer  "lawyer_id"
-    t.integer  "proposal_request_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "proposal_requests", force: true do |t|
     t.integer  "request_id"
     t.integer  "lawyer_id"
@@ -144,8 +134,6 @@ ActiveRecord::Schema.define(version: 20140316012407) do
     t.string   "type"
     t.string   "type_person"
     t.integer  "speciality_area_id"
-    t.string   "case_about",         null: false
-    t.integer  "practice_area_id",   null: false
     t.integer  "monthly_income"
     t.integer  "method_payment_id"
     t.text     "description"
@@ -153,6 +141,8 @@ ActiveRecord::Schema.define(version: 20140316012407) do
     t.datetime "updated_at"
     t.string   "state"
     t.integer  "customer_id"
+    t.integer  "practice_area_id"
+    t.string   "case_about"
   end
 
   create_table "speciality_areas", force: true do |t|

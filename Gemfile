@@ -4,13 +4,18 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 # Use sqlite3 as the database for Active Record
-gem 'mysql2'
+
+gem 'mysql2', :group => :development
+
 gem 'carrierwave'
 gem 'devise'
 gem 'haml-rails'
 gem 'activeadmin', github: 'gregbell/active_admin'
-gem 'rails_12factor', group: :production
-gem "pg", :group => :production
+
+#group :production do
+#  gem 'rails_12factor'
+#  gem "pg"
+#end
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
