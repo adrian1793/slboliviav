@@ -33,16 +33,16 @@ body{
     width: 980px;
 }
 .inlineBlock{
-  display: inline-block;
+    display: inline-block;
 
 }
 .panel_left{
-  width: 600px;
-  vertical-align: top;
-  margin-right: 15px !important;
+    width: 600px;
+    vertical-align: top;
+    margin-right: 15px !important;
 }
 .panel_right{
- width: 380px;
+    width: 380px;
 }
 ._5iyx {
     font-size: 14px;
