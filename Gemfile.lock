@@ -64,7 +64,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.0)
-    commonjs (0.2.7)
     devise (3.2.4)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -102,11 +101,6 @@ GEM
     kaminari (0.15.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
-    less (2.5.0)
-      commonjs (~> 0.2.7)
-    less-rails (2.5.0)
-      actionpack (>= 3.1)
-      less (~> 2.5.0)
     libv8 (3.16.14.3)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -199,7 +193,6 @@ DEPENDENCIES
   haml-rails
   jbuilder (~> 1.2)
   jquery-rails
-  less-rails
   mysql2
   pg
   rails (= 4.0.0)

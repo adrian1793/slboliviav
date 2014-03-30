@@ -24,7 +24,7 @@ gem 'jquery-rails'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 gem 'therubyracer'
-gem "less-rails"
+
 gem 'twitter-bootstrap-rails'
 
 # Use Uglifier as compressor for JavaScript assets
