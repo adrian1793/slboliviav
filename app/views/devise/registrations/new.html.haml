@@ -1,34 +1,34 @@
 .row
   .col-md-6
-    %h2 REGISTER
+    %h2 REGISTRO
     %p
-      Free Registry Through you will be client broader network of lawyers in the country at the lowest cost
+      Registro Gratis. A través del cual usted será cliente de la red más amplia de abogados en el país con el menor costo.
       = form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |u|
         = devise_error_messages!
         .container
           =u.fields_for :customer do |f|
             .row
               .col-xs-6
-                = f.text_field :first_name, :placeholder => 'First Name'
+                = f.text_field :first_name, :placeholder => 'Nombres'
               .col-xs-6
-                = f.text_field :last_name, :placeholder => 'Last Name'
+                = f.text_field :last_name, :placeholder => 'Apellidos'
             .row
               .col-xs-6
-                = u.email_field :email, :placeholder => 'Email'
+                = u.email_field :email, :placeholder => 'Correo Electrónico'
             .row
               .col-xs-6
-                = u.password_field :password , :placeholder => 'password'
+                = u.password_field :password , :placeholder => 'Contraseña'
               .col-xs-6
-                = u.password_field :password_confirmation, :placeholder => 'password confirmation'
+                = u.password_field :password_confirmation, :placeholder => 'Confirmar Contraseña'
             .row
               .col-xs-6
                 = f.text_field :ci, :class=> 'inputtext _58mg _5dba', :placeholder => 'C.I/Pasaporte'
               .col-xs-6
-                = f.text_field :company, :class=> 'inputtext _58mg _5dba', :placeholder => 'Company'
+                = f.text_field :company, :class=> 'inputtext _58mg _5dba', :placeholder => 'Compañia'
 
             .row
-              %p Birthday
-              .btn.btn-link{:type => "button", "data-target" => "#myModal", "data-toggle" => "modal"} Why do I need to provide my birthday?
+              %p Cumpleaños
+              .btn.btn-link{:type => "button", "data-target" => "#myModal", "data-toggle" => "modal"} Porqué necesito ingresar mi cumpleaños?
 
               = content_tag :a, "Modal", :href => "#modal", :class => 'btn', :data => {:toggle => 'modal'}
 
@@ -38,52 +38,53 @@
                                :footer => content_tag(:button, 'Save', :class => 'btn')
 
               .form-group
-                = f.date_select :date_of_birth, :start_year => 1900, :end_year => Time.now.year-18, prompt: { day: 'Select day', month: 'Select month', year: 'Select year' }
+                = f.date_select :date_of_birth, :start_year => 1900, :end_year => Time.now.year-18, prompt: { day: 'DIA', month: 'MES', year: 'AÑO' }
             .row
               %p Genero
               .radio-inline
-                = f.radio_button :gender, 'female'
+                = f.radio_button :gender, 'Femenino'
                 %label Mujer
               .radio-inline
-                = f.radio_button :gender, 'male'
+                = f.radio_button :gender, 'Masculino'
                 %label Hombre
 
             .row
               %p
-                Where you live?
+                Dónde vives?
               .input
-                = f.text_field :address, :placeholder => '*Address(Neighborhood / Street / N #)'
+                = f.text_field :address, :placeholder => '*Dirección(Barrio / Calle / N #)'
             .row
               %label
-                Country
+                PAÍS
               .select.session
-                = select_tag :country, options_from_collection_for_select(Country.all, "id", "name",@country.id), :placeholder => 'Country'
+                = select_tag :country, options_from_collection_for_select(Country.all, "id", "name",@country.id), :placeholder => 'País'
               #states
                 %label
-                  State
+                  Departamento/Estado
                 .select.session
-                  = select_tag :state, options_from_collection_for_select(@country.states, "id", "name"), :placeholder => 'State'
+                  = select_tag :state, options_from_collection_for_select(@country.states, "id", "name"), :placeholder => 'Estado'
                 #cities
                   %label
-                    city
+                    Ciudad
                   .select.session
-                    = f.collection_select :city_id, @cities, "id", "name", :placeholder => 'City'
+                    = f.collection_select :city_id, @cities, "id", "name", :placeholder => 'Ciudad'
             .row
               %p
-                Phones
+                Teléfonos
               .col-xs-6
-                = f.text_field :phone, :placeholder => 'Phone'
+                = f.text_field :phone, :placeholder => 'Casa'
               .col-xs-6
-                = f.text_field :cell_phone, :class=> 'inputtext _58mg _5dba', :placeholder => 'cellphone'
+                = f.text_field :cell_phone, :class=> 'inputtext _58mg _5dba', :placeholder => 'Celular'
             %p
-              By clicking Sign Up, you agree to our Terms and that you have read our Data Use Policy, including our Cookie Use.
+              Al hacer clic en Registrarse, usted acepta nuestros términos y que has leído en nuestra Política de Uso de Datos, incluyendo nuestro uso de cookies.
           %p
-            = u.submit "Sign up"
+            = u.submit "Registrarse"
 
   .col-md-offset-6
-    %h2 LEGAL SOLUTIONS
-    %p Legal Solutions offers the widest range of lawyers and legal studies from Bolivia to Help to solve your legal problems.
+    %h2 SOLUCIONES LEGALES
+    %p SOLUCIONES LEGALES ofrece la más amplia gama de abogados y estudios jurídicos de Bolivia para ayudar a resolver sus problemas legales.
     = image_tag 'bolivia_color.png'
+
 
 
 

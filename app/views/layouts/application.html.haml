@@ -1,3 +1,4 @@
+
 !!! 5
 %html(lang="en")
   %head
@@ -5,11 +6,13 @@
     %meta(http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1")
     %meta(name="viewport" content="width=device-width, initial-scale=1.0")
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
+
     %title= content_for?(:title) ? yield(:title) : "LEGU"
 
     = csrf_meta_tags
 
     = stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true
+    = stylesheet_link_tag "bootstrap.min.css", :media => "all"
 
     = javascript_include_tag "application", media: "all", "data-turbolinks-track" => true
 
@@ -18,7 +21,9 @@
     /[if lt IE 9]
 
 
-  %body{:class => "body #{controller_name}"}
+  //%body{:class => "body #{controller_name}"}
+  .body
+
     // = nav_bar :fixed => :top, :brand => "Fashionable Clicheizr 2.0", :responsive => true do
     //  = menu_group do
     //    = menu_item "Home", root_path
@@ -50,12 +55,12 @@
             = form_for(:user, :url => session_path(:user)) do |f|
               .navbar-form.navbar-left
                 .form-group
-                  = f.email_field :email, :autofocus => true, :class => 'form-control', :placeholder => "correo electronico"
+                  = f.email_field :email, :autofocus => true, :class => 'form-control', :placeholder => "correo electrónico"
                 .form-group
-                  = f.password_field :password, :class => 'form-control', :placeholder => "Contrasena"
+                  = f.password_field :password, :class => 'form-control', :placeholder => "Contraseña"
                 = f.check_box :remember_me
-                = f.label :remember_me
-                = f.submit "Sign up"
+                = f.label :Recordarme
+                = f.submit "Iniciar Sesión"
         .navbar-collapse.collapse.navbar-right
           %button.navbar-toggle{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}
             %span.sr-only Toggle navigation
@@ -67,25 +72,26 @@
           = link_to image_tag('logo.jpg'), root_path
           - if user_signed_in?
             = current_user.email
-            = link_to "Sign out", destroy_user_session_path, :method => :delete
+            = link_to "Cerrar Sesión", destroy_user_session_path, :method => :delete
 
-    //%nav.oPageCentered.oNav
-    //  %ul.oNavTablist
-    //    %li
-    //      = link_to 'My Requests',root_path, :class=>"oNavTab"
+    %nav.oPageCentered.oNav
+      %ul.oNavTablist
+        %li
+          = link_to 'My Requests',root_path, :class=>"oNavTab"
 
-    //    %li
-    //      = link_to 'profile',root_path, :class=>"oNavTab"
-    //
-    //    %li
-    //      = link_to 'messages',root_path, :class=>"oNavTab"
+        %li
+          = link_to 'profile',root_path, :class=>"oNavTab"
+
+        %li
+          = link_to 'messages',root_path, :class=>"oNavTab"
 
 
 
     .jumbotron
       .container-fluid
-        = yield
+        .row
+          /= bootstrap_flash
+          = yield
         %hr
         %footer
           %p &copy; LEGU 2014
-
