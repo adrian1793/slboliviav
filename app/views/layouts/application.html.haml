@@ -69,24 +69,22 @@
             = current_user.email
             = link_to "Sign out", destroy_user_session_path, :method => :delete
 
-    %nav.oPageCentered.oNav
-      %ul.oNavTablist
-        %li
-          = link_to 'My Requests',root_path, :class=>"oNavTab"
+    //%nav.oPageCentered.oNav
+    //  %ul.oNavTablist
+    //    %li
+    //      = link_to 'My Requests',root_path, :class=>"oNavTab"
 
-        %li
-          = link_to 'profile',root_path, :class=>"oNavTab"
-
-        %li
-          = link_to 'messages',root_path, :class=>"oNavTab"
+    //    %li
+    //      = link_to 'profile',root_path, :class=>"oNavTab"
+    //
+    //    %li
+    //      = link_to 'messages',root_path, :class=>"oNavTab"
 
 
 
     .jumbotron
       .container-fluid
-        .row
-          /= bootstrap_flash
-          = yield
+        = yield
         %hr
         %footer
           %p &copy; LEGU 2014
