@@ -3,10 +3,12 @@
 
 
 
-#tittle_content
-  %h1 New request
-  .tn1 Tengo un problema Legal y nesecito solucionarlo
+#row.reqnew
+  %h2.text-center= t('Nueva Solicitud')
+  %p.text-center Tengo un problema Legal y necesito solucionarlo
+  %p.text-center Escoja las opciones en las cuales será fácil identificar el problema.
+  %hr
 
-= render 'form'
+  = render 'form'
 
-= link_to 'Back', requests_path
+= link_to t('helpers.links.back'), requests_path

@@ -5,13 +5,14 @@ gem 'rails', '4.0.0'
 
 # Use sqlite3 as the database for Active Record
 
-gem 'mysql2', :group => :development
+gem 'mysql2', '~> 0.3.15', :group => :development
 
 gem 'carrierwave'
 gem 'devise'
 gem 'haml-rails'
 gem 'activeadmin', github: 'gregbell/active_admin'
-
+gem 'json'
+gem 'execjs'
 group :production do
 #  gem 'rails_12factor'
   gem "pg"
@@ -22,9 +23,6 @@ gem 'jquery-rails'
 
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
-gem 'therubyracer'
-gem 'less-rails'
 gem 'twitter-bootstrap-rails'
 
 # Use Uglifier as compressor for JavaScript assets

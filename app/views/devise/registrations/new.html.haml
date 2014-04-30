@@ -1,4 +1,10 @@
 .row
+  .col-md-5
+    %h2 SOLUCIONES LEGALES
+    %p SOLUCIONES LEGALES ofrece la más amplia gama de abogados y estudios jurídicos de Bolivia para ayudar a resolver sus problemas legales.
+    = image_tag 'bolivia_color.png'
+
+
   .col-md-6
     %h2 REGISTRO
     %p
@@ -8,39 +14,40 @@
         .container
           =u.fields_for :customer do |f|
             .row
-              .col-xs-6
+              .col-md-4
                 = f.text_field :first_name, :placeholder => 'Nombres'
-              .col-xs-6
+              .col-md-4
                 = f.text_field :last_name, :placeholder => 'Apellidos'
             .row
-              .col-xs-6
+              .col-md-4
                 = u.email_field :email, :placeholder => 'Correo Electrónico'
             .row
-              .col-xs-6
+              .col-md-4
                 = u.password_field :password , :placeholder => 'Contraseña'
-              .col-xs-6
+              .col-md-4
                 = u.password_field :password_confirmation, :placeholder => 'Confirmar Contraseña'
             .row
-              .col-xs-6
+              .col-md-4
                 = f.text_field :ci, :class=> 'inputtext _58mg _5dba', :placeholder => 'C.I/Pasaporte'
-              .col-xs-6
+              .col-md-4
                 = f.text_field :company, :class=> 'inputtext _58mg _5dba', :placeholder => 'Compañia'
 
             .row
-              %p Cumpleaños
-              .btn.btn-link{:type => "button", "data-target" => "#myModal", "data-toggle" => "modal"} Porqué necesito ingresar mi cumpleaños?
-
-              = content_tag :a, "Modal", :href => "#modal", :class => 'btn', :data => {:toggle => 'modal'}
-
-              = modal_dialog :id => "modal",
-                       :header => { :show_close => true, :dismiss => 'modal', :title => 'Modal header' },
-                               :body   => 'This is the body',
-                               :footer => content_tag(:button, 'Save', :class => 'btn')
+              %h4 Cumpleaños
+              %ul.nav
+                %li.dropdown.open
+                  %a.dropdown-toggle{"data-toggle"=>'dropdown'}
+                    Porqué necesito ingresar mi cumpleaños?
+                    %ul.dropdown-menu{:class=>'dropdown-menu-left'}
+                      = link_to ''
+                      %li
+                        = image_tag 'flechader.png'
+                        %pre 'In order to be able to provide you with services, we need to make sure that you are an adult according to your National laws, and therefore whether or not you can make binding amendments to your rights, duties and obligations; such as entering into contracts or other agreements and perform other legal acts of civil life.'
 
               .form-group
                 = f.date_select :date_of_birth, :start_year => 1900, :end_year => Time.now.year-18, prompt: { day: 'DIA', month: 'MES', year: 'AÑO' }
             .row
-              %p Genero
+              %h4 Genero
               .radio-inline
                 = f.radio_button :gender, 'Femenino'
                 %label Mujer
@@ -49,41 +56,37 @@
                 %label Hombre
 
             .row
-              %p
+              %h4
                 Dónde vives?
               .input
-                = f.text_field :address, :placeholder => '*Dirección(Barrio / Calle / N #)'
+                = f.text_field :address,:type=>'address', :placeholder => '*Dirección(Barrio / Calle / N #)'
             .row
-              %label
-                PAÍS
-              .select.session
-                = select_tag :country, options_from_collection_for_select(Country.all, "id", "name",@country.id), :placeholder => 'País'
-              #states
-                %label
-                  Departamento/Estado
-                .select.session
-                  = select_tag :state, options_from_collection_for_select(@country.states, "id", "name"), :placeholder => 'Estado'
-                #cities
-                  %label
-                    Ciudad
+              .form-group
+                .inline
+                  %h4 PAÍS
                   .select.session
-                    = f.collection_select :city_id, @cities, "id", "name", :placeholder => 'Ciudad'
+                    = select_tag :country, options_from_collection_for_select(Country.all, "id", "name",@country.id), :placeholder => 'País'
+                .inline
+                  #states
+                    %h4 Departamento
+                    .select.session
+                      = select_tag :state, options_from_collection_for_select(@country.states, "id", "name"), :placeholder => 'Estado'
+                .inline
+                  #cities
+                    %h4 Ciudad
+                    .select.session
+                      = f.collection_select :city_id, @cities, "id", "name", :placeholder => 'Ciudad'
             .row
-              %p
+              %h4
                 Teléfonos
-              .col-xs-6
+              .col-md-4
                 = f.text_field :phone, :placeholder => 'Casa'
-              .col-xs-6
+              .col-md-4
                 = f.text_field :cell_phone, :class=> 'inputtext _58mg _5dba', :placeholder => 'Celular'
             %p
               Al hacer clic en Registrarse, usted acepta nuestros términos y que has leído en nuestra Política de Uso de Datos, incluyendo nuestro uso de cookies.
           %p
             = u.submit "Registrarse"
-
-  .col-md-offset-6
-    %h2 SOLUCIONES LEGALES
-    %p SOLUCIONES LEGALES ofrece la más amplia gama de abogados y estudios jurídicos de Bolivia para ayudar a resolver sus problemas legales.
-    = image_tag 'bolivia_color.png'
 
 
 

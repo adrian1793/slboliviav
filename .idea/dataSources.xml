@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" hash="261117895">
-    <data-source source="LOCAL" name="Rails slbolivia: development" product="MySQL" version="5.5.32-0ubuntu0.12.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )" uuid="e12b4395-5c62-4de8-8c4f-5eb2d97bb82f">
-      <extra-name-characters>#@</extra-name-characters>
-      <identifier-quote-string>`</identifier-quote-string>
+    <data-source source="LOCAL" name="Rails slbolivia: development" uuid="e12b4395-5c62-4de8-8c4f-5eb2d97bb82f">
+      <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/slbolivia_development</jdbc-url>
       <user-name>root</user-name>
-      <user-password>dfc7dfd3dfd9dfdbdfc6</user-password>
       <libraries>
         <library>
           <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license_2.txt</url>
@@ -17,9 +15,22 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails slbolivia: test" product="MySQL" version="5.5.32-0ubuntu0.12.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )" uuid="ecc8a6b3-ac07-40ce-a43c-b9d18d5bd7a7">
-      <extra-name-characters>#@</extra-name-characters>
-      <identifier-quote-string>`</identifier-quote-string>
+    <data-source source="LOCAL" name="Rails slbolivia: test" uuid="ecc8a6b3-ac07-40ce-a43c-b9d18d5bd7a7">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/slbolivia_test</jdbc-url>
+      <user-name>root</user-name>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license_2.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.26-bin_2.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails slbolivia: test" uuid="ef9ace83-4608-4135-8b22-48436f3933ba">
+      <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/slbolivia_test</jdbc-url>
       <user-name>root</user-name>
@@ -33,25 +44,8 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails slbolivia: test" product="MySQL" version="5.5.32-0ubuntu0.12.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )" uuid="ef9ace83-4608-4135-8b22-48436f3933ba">
-      <extra-name-characters>#@</extra-name-characters>
-      <identifier-quote-string>`</identifier-quote-string>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/slbolivia_test</jdbc-url>
-      <user-name>root</user-name>
-      <user-password>dfc7dfd3dfd9dfdbdfc6</user-password>
-      <libraries>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license_2.txt</url>
-        </library>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.26-bin_2.jar</url>
-        </library>
-      </libraries>
-    </data-source>
-    <data-source source="LOCAL" name="Rails slbolivia: development" product="MySQL" version="5.5.32-0ubuntu0.12.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )" uuid="3b169166-9696-4296-83ff-3fcf1b2b4ca2">
-      <extra-name-characters>#@</extra-name-characters>
-      <identifier-quote-string>`</identifier-quote-string>
+    <data-source source="LOCAL" name="Rails slbolivia: development" uuid="3b169166-9696-4296-83ff-3fcf1b2b4ca2">
+      <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/slbolivia_development</jdbc-url>
       <user-name>root</user-name>
@@ -65,9 +59,8 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails slbolivia: test" product="MySQL" version="5.5.32-0ubuntu0.12.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )" uuid="409ad197-9c38-43fa-a23a-856f5654a205">
-      <extra-name-characters>#@</extra-name-characters>
-      <identifier-quote-string>`</identifier-quote-string>
+    <data-source source="LOCAL" name="Rails slbolivia: test" uuid="409ad197-9c38-43fa-a23a-856f5654a205">
+      <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/slbolivia_test</jdbc-url>
       <user-name>root</user-name>
@@ -81,9 +74,8 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails slbolivia: development" product="MySQL" version="5.5.32-0ubuntu0.12.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )" uuid="d7091fd4-c7b2-4cc5-a9dd-3c57e2a7aabb">
-      <extra-name-characters>#@</extra-name-characters>
-      <identifier-quote-string>`</identifier-quote-string>
+    <data-source source="LOCAL" name="Rails slbolivia: development" uuid="d7091fd4-c7b2-4cc5-a9dd-3c57e2a7aabb">
+      <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/slbolivia_development</jdbc-url>
       <user-name>root</user-name>
@@ -97,9 +89,8 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails slbolivia: development" product="MySQL" version="5.5.32-0ubuntu0.12.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )" uuid="11d74828-ca17-4604-a7a7-c346f32fddb3">
-      <extra-name-characters>#@</extra-name-characters>
-      <identifier-quote-string>`</identifier-quote-string>
+    <data-source source="LOCAL" name="Rails slbolivia: development" uuid="11d74828-ca17-4604-a7a7-c346f32fddb3">
+      <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/slbolivia_development</jdbc-url>
       <user-name>root</user-name>
@@ -113,9 +104,8 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails slbolivia: test" product="MySQL" version="5.5.32-0ubuntu0.12.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )" uuid="51c010e1-cc4c-4991-973e-71028b7030bf">
-      <extra-name-characters>#@</extra-name-characters>
-      <identifier-quote-string>`</identifier-quote-string>
+    <data-source source="LOCAL" name="Rails slbolivia: test" uuid="51c010e1-cc4c-4991-973e-71028b7030bf">
+      <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/slbolivia_test</jdbc-url>
       <user-name>root</user-name>
@@ -129,9 +119,8 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails slbolivia: test" product="MySQL" version="5.5.32-0ubuntu0.12.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )" uuid="ed92cc78-d1d0-4b1f-a3e4-1dd9e83cd33a">
-      <extra-name-characters>#@</extra-name-characters>
-      <identifier-quote-string>`</identifier-quote-string>
+    <data-source source="LOCAL" name="Rails slbolivia: test" uuid="ed92cc78-d1d0-4b1f-a3e4-1dd9e83cd33a">
+      <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/slbolivia_test</jdbc-url>
       <user-name>root</user-name>
@@ -145,9 +134,8 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails slbolivia: development" product="MySQL" version="5.5.32-0ubuntu0.12.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )" uuid="c302929e-292d-4917-9f5f-48aab4608747">
-      <extra-name-characters>#@</extra-name-characters>
-      <identifier-quote-string>`</identifier-quote-string>
+    <data-source source="LOCAL" name="Rails slbolivia: development" uuid="c302929e-292d-4917-9f5f-48aab4608747">
+      <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/slbolivia_development</jdbc-url>
       <user-name>root</user-name>
@@ -160,6 +148,13 @@
           <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.26-bin_2.jar</url>
         </library>
       </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails slbolivia: production" uuid="07ed9344-ffb3-4e49-849e-3d9fd4c8bd7a">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/slbolivia_prosduction</jdbc-url>
+      <user-name>root</user-name>
+      <libraries />
     </data-source>
   </component>
 </project>

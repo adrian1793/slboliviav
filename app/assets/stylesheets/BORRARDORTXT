@@ -1,0 +1,9 @@
+
+%ul.nav
+%li.dropdown.open
+%a.dropdown-toggle{"data-toggle"=>'dropdown'}
+
+
+background-image: url(../image_s/fondo.png);
+	background-repeat: repeat-x;
+	background-position: left top;

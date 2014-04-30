@@ -1,6 +1,7 @@
 es:
   active_admin:
     dashboard: Inicio
+    configurations: "Configuraciones"
     dashboard_welcome:
       welcome: "Bienvenido a Active Admin. Esta es la página de inicio predeterminada."
       call_to_action: "Para agregar secciones edite 'app/admin/dashboard.rb'"
@@ -22,6 +23,7 @@ es:
     has_many_new: "Agregar Añadir %{model}"
     has_many_delete: "Eliminar"
     has_many_remove: "Quitar"
+
     filters:
       buttons:
         filter: "Filtrar"
@@ -72,12 +74,13 @@ es:
       title_content: "Comentarios (%{count})"
       errors:
         empty_text: "El comentario no fue guardado, el texto estaba vacío."
-
     devise:
       login:
         title: "iniciar sesión"
         remember_me: "Recordarme"
         submit: "iniciar sesión"
+        email: "Correo Electronico"
+        password: "Contraseña"
       reset_password:
         title: "¿Olvidó su contraseña?"
         submit: "Restablecer mi contraseña"
@@ -88,6 +91,8 @@ es:
         sign_in: "registrarse"
         forgot_your_password: "¿Olvidó su contraseña?"
         sign_in_with_omniauth_provider: "Conéctate con %{provider}"
+
+
   views:
       pagination:
           truncate: "..."
@@ -104,4 +109,186 @@ es:
     cancel: "Cancelar"
     reset: "Restablecer %{model}"
     required: "requerido"
+
+  date:
+       formats:
+         default: "%d/%m/%Y"
+         short: "%d/%m/%Y"
+         long: "%d/%m/%Y"
+  time:
+      formats:
+        short: "%H:%M:%S"
+        long: "%H:%M:%S"
+
+  activerecord:
+    models:
+      admin_user: "Administración de Usuario"
+      case_about: "Acerca del Caso"
+      customer: "Cliente"
+      lawyer: "Abogados"
+      method_payment: "Método de Pago"
+      need_help: "Necesita Ayuda"
+      request: "Demanda"
+      speciality_area: "Area de Especialidad"
+      user: "Usuarios"
+      state: "Departamento"
+      city: "Ciudad"
+      country: "País"
+
+    attributes:
+      lawyer:
+        id: "Identificador"
+        name: "Nombre"
+        address: "Dirección"
+        department: "Departamento"
+        city: "Ciudad"
+        phone: "Telefono"
+        cell_phone: "Telefono Celular"
+        created_at: "Creado el"
+        updated_at: "Actualizado el"
+        user: "Usuario"
+
+      case_about:
+        id: "Identificador"
+        name: "Nombre"
+        created_at: "Creado el"
+        updated_at: "Actualizado el"
+        requests: "Demanda"
+
+      admin_user:
+        email: "Correo ELectronico"
+        current_sign_in_at: "Actualmente conectado desde"
+        last_sign_in_at: "Ultima conexión"
+        sign_in_count: "Número de Conexiones"
+        id: "Identificador"
+        encrypted_password: "Encriptación de Contraseña"
+        reset_password_token: "Token de Reseteo de Contraseña"
+        reset_password_sent_at: "Reseteo de Contraseña Enviada"
+        remember_created_at: "Recordatorio de Creación"
+        current_sign_in_up: "Conectado desde"
+        last_sign_in_up: "Ultima conexión desde"
+        created_at: "Creado el"
+        updated_at: "Actualizado el"
+        password: "Contraseña"
+        password_confirmation: "Confirnación de Contraseña"
+
+      speciality_area:
+        id: "Identificador"
+        name: "Nombre"
+        created_at: "Creado el"
+        updated_at: "Actualizado el"
+        requests: "Demanda"
+
+      customer:
+        full_name: "Nombre Completo"
+        ci: "Carnet de Identidad"
+        date_of_birth: "Fecha de Nacimiento"
+        gender: "Sexo"
+        company: "Empresa"
+        address: "Dirección"
+        department: "Departamento"
+        city: "Ciudad"
+        first_name: "Nombre"
+        middle_name: "Apellido Paterno"
+        last_name: "Apellido Materno"
+        user: "Usuario"
+
+      state:
+        id: "Identificador"
+        country: "Pais"
+        name: "Departamento"
+        created_at: "Creado el"
+        updated_at: "Actualizado el"
+        cities: "Ciudad"
+
+      city:
+        id: "Identificador"
+        customers: "Cliente"
+        state: "Departamento"
+        name: "Ciudad"
+        created_at: "Creado el"
+        updated_at: "Actualizado el"
+
+      country:
+        id: "Identificador"
+        name: "País"
+        created_at: "Creado el"
+        updated_at: "Actualizado el"
+        states: "Departamentos"
+
+      request:
+        type: "Tipo de Demanda"
+        customer: "Cliente"
+        method_payment: "Forma de Pago"
+        speciality_area: "Area de Especialidad"
+        case_about: "Acerca del Caso"
+        need_help: "Necesita Ayuda"
+        type_person: "Tipo de Persona"
+        monthly_income: "Ingreso Mensual"
+        description: "Descripción"
+        created_at: "Creado el"
+        updated_at: "Actualizado el"
+        state: "Departamento"
+        id: "Identificador"
+
+      user:
+        full_name: "Nombre Completo"
+
+      method_payment:
+        id: "Identificador"
+        name: "Forma de Pago"
+        description: "Descripción"
+        created_at: "Creado el"
+        updated_at: "Actualizado el"
+        requests: "Demanda"
+
+      need_help:
+        id: "Identificador"
+        name: "Tipo de Caso"
+        created_at: "Creado el"
+        updated_at: "Actualizado el"
+        requests: "Demanda"
+
+      user:
+        id: "Identificador"
+        email: "Correo Electronico"
+        customer: "Cliente"
+        lawyer: "Abogado"
+        current_sign_in_up: "Conectado desde"
+        last_sign_in_up: "Ultima conexión desde"
+        sign_in_count: "Número de Conexiones"
+        encrypted_password: "Encriptación de Contraseña"
+        reset_password_token: "Token de Reseteo de Contraseña"
+        reset_password_sent_at: "Reseteo de Contraseña Enviada"
+        remember_created_at: "Recordatorio de Creación"
+        current_sign_in_at: "Conectado desde"
+        last_sign_in_at: "Ultima conexión desde"
+        current_sign_in_ip: "Dirección de Conexión"
+        last_sign_in_ip: "Ultima Dirección de Conexión"
+        created_at: "Creado el"
+        updated_at: "Actualizado el"
+        password: "Contraseña"
+        password_confirmation: "Confirmación de Contraseña"
+        user_details: "Detalle de Usuario"
+
+    filter:
+      lawyer:
+        id: "Identificador"
+        name: "Nombre"
+        address: "Dirección"
+        department: "Departamento"
+        city: "Ciudad"
+        phone: "Telefono"
+        cell_phone: "Telefono Celular"
+        created_at: "Creado el"
+        updated_at: "Actualizado el"
+        user: "Usuario"
+
+      customer:
+        full_name: "Nombre Completo"
+      state:
+        countries: "Pais"
+
+
+
 
