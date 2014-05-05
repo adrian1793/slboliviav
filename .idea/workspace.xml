@@ -5,14 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea7217fe-7195-4649-9b80-a0324aca4c23" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Sites\slboliviaV\app\assets\stylesheets\doc.min.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/requests/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/requests/_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/requests/index.html.haml" afterPath="$PROJECT_DIR$/app/views/requests/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.haml" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/registration_script.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/registration_script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="0bacaf28-4d54-4df3-bd52-cf1e2cf8f9e4" name="no change" comment="para no subir" />
@@ -47,7 +39,7 @@
       <file leaf-file-name="bootstrap.min.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="12731" selection-start="14136" selection-end="14136" vertical-scroll-proportion="0.33193278" vertical-offset="482" max-vertical-offset="1173">
+            <state line="39" column="57" selection-start="101251" selection-end="101379" vertical-scroll-proportion="0.7605042" vertical-offset="482" max-vertical-offset="1173">
               <folding />
             </state>
           </provider>
@@ -172,8 +164,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-127" />
-    <option name="y" value="47" />
+    <option name="x" value="241" />
+    <option name="y" value="110" />
     <option name="width" value="1378" />
     <option name="height" value="606" />
   </component>
@@ -667,7 +659,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-127" y="47" width="1378" height="606" extended-state="0" />
+    <frame x="241" y="110" width="1378" height="606" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30322582" sideWeight="0.49966148" order="7" side_tool="false" content_ui="tabs" />
@@ -1010,7 +1002,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="12731" selection-start="14136" selection-end="14136" vertical-scroll-proportion="0.33193278" vertical-offset="482" max-vertical-offset="1173">
+        <state line="39" column="57" selection-start="101251" selection-end="101379" vertical-scroll-proportion="0.7605042" vertical-offset="482" max-vertical-offset="1173">
           <folding />
         </state>
       </provider>
