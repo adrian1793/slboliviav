@@ -58,19 +58,37 @@
 
                 .icon-bar
               = link_to image_tag('logo.jpg'), root_path
-              %ul.ultop
-                %li
-                  = link_to 'My Requests',root_path
-                %li
-                  = link_to 'profile',root_path
-                %li
-                  = link_to 'messages',root_path
+
 
             - if user_signed_in?
+              %div.topp
+                %ul.ultop
+                  %li
+                    = link_to 'My Requests',root_path
+                %ul.ultop
+                  %li
+                    = link_to 'profile',root_path
+                %ul.ultop
+                  %li
+                    = link_to 'messages',root_path
+
               %div.cerrar
-                %p
-                  = current_user.email
-                = link_to "Cerrar Sesión", destroy_user_session_path, :method => :delete,:style=>'submit'
+                %ul.topcer
+                  %li.dropdown
+                    %a.dropdown-toggle{"data-toggle"=>'dropdown'}
+                      %div.line
+                        = current_user.email
+                      %div.line
+                        = image_tag 'topflecha.png'
+                      %ul.dropdown-menu{:class=>'dropdown-menu-bajo'}
+                        = link_to ''
+                        %li
+                          = image_tag 'flechaup.png'
+                          = link_to "Cerrar Sesión", destroy_user_session_path, :method => :delete
+
+
+
+
 
         .navbar-collapse.collapse.navbar-form.navbar-right
           - unless user_signed_in?

@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea7217fe-7195-4649-9b80-a0324aca4c23" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\Sites\slboliviaV\app\assets\stylesheets\doc.min.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/requests/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/requests/_form.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/requests/index.html.haml" afterPath="$PROJECT_DIR$/app/views/requests/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.haml" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/registration_script.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/registration_script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="0bacaf28-4d54-4df3-bd52-cf1e2cf8f9e4" name="no change" comment="para no subir" />
     <ignored path="slbolivia.iws" />
@@ -20,7 +28,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/slbolivia@db_seed__slbolivia.coverage" NAME="db:seed: slbolivia Coverage Results" MODIFIED="1398454290500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="slbolivia" />
     <SUITE FILE_PATH="coverage/slbolivia@db_migrate__slbolivia.coverage" NAME="db:migrate: slbolivia Coverage Results" MODIFIED="1398454224265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="slbolivia" />
-    <SUITE FILE_PATH="coverage/slbolivia@Development__slbolivia.coverage" NAME="Development: slbolivia Coverage Results" MODIFIED="1398896567078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="slbolivia" />
+    <SUITE FILE_PATH="coverage/slbolivia@Development__slbolivia.coverage" NAME="Development: slbolivia Coverage Results" MODIFIED="1399313166203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="slbolivia" />
     <SUITE FILE_PATH="coverage/slbolivia@db_schema_load__slbolivia.coverage" NAME="db:schema:load: slbolivia Coverage Results" MODIFIED="1398454256812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="slbolivia" />
     <SUITE FILE_PATH="coverage/slbolivia@db_create_all__slbolivia.coverage" NAME="db:create:all: slbolivia Coverage Results" MODIFIED="1398454200312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="slbolivia" />
   </component>
@@ -36,19 +44,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="27" selection-start="101831" selection-end="101831" vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="952">
+            <state line="33" column="12731" selection-start="14136" selection-end="14136" vertical-scroll-proportion="0.33193278" vertical-offset="482" max-vertical-offset="1173">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="714" selection-end="714" vertical-scroll-proportion="0.51641136" vertical-offset="410" max-vertical-offset="867">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="709" max-vertical-offset="1802">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/requests/index.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="22" selection-start="282" selection-end="289" vertical-scroll-proportion="-1.9615384" vertical-offset="204" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -57,7 +74,7 @@
       <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/requests/_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="9" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1972">
+            <state line="77" column="13" selection-start="3818" selection-end="3818" vertical-scroll-proportion="-1.3461539" vertical-offset="1239" max-vertical-offset="1972">
               <folding />
             </state>
           </provider>
@@ -66,7 +83,7 @@
       <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="98" selection-start="2637" selection-end="2637" vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="1802">
+            <state line="64" column="25" selection-start="2267" selection-end="2272" vertical-scroll-proportion="-1.3076923" vertical-offset="1054" max-vertical-offset="2108">
               <folding />
             </state>
           </provider>
@@ -81,37 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/requests/new.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="11" selection-start="90" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="323">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="active_admin.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="25" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="391">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_mixins.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://D:/RailsInstaller/Ruby193/lib/ruby/gems/1.9.1/bundler/gems/active_admin-3fb7f03335b1/app/assets/stylesheets/active_admin/_mixins.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_buttons.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://D:/RailsInstaller/Ruby193/lib/ruby/gems/1.9.1/bundler/gems/active_admin-3fb7f03335b1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="184" max-vertical-offset="1275">
+            <state line="10" column="25" selection-start="383" selection-end="383" vertical-scroll-proportion="-4.076923" vertical-offset="64" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
@@ -120,7 +110,7 @@
       <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="2169" selection-end="2169" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1683">
+            <state line="43" column="51" selection-start="1782" selection-end="1809" vertical-scroll-proportion="-6.5384617" vertical-offset="561" max-vertical-offset="1683">
               <folding />
             </state>
           </provider>
@@ -159,16 +149,18 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/BORRARDORTXT" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
         <option value="D:/RailsInstaller/Ruby193/lib/ruby/gems/1.9.1/bundler/gems/active_admin-3fb7f03335b1/app/assets/stylesheets/active_admin/mixins/_reset.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.haml" />
         <option value="$PROJECT_DIR$/app/views/requests/new.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/requests/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/proposal_lawyers.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/doc.min.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="D:/RailsInstaller/Ruby193/lib/ruby/gems/1.9.1/bundler/gems/active_admin-3fb7f03335b1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/registration_script.js" />
+        <option value="$PROJECT_DIR$/app/views/requests/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/requests/_form.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" />
       </list>
     </option>
   </component>
@@ -180,10 +172,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="48" />
-    <option name="y" value="102" />
-    <option name="width" value="1280" />
-    <option name="height" value="630" />
+    <option name="x" value="-127" />
+    <option name="y" value="47" />
+    <option name="width" value="1378" />
+    <option name="height" value="606" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -211,6 +203,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,128 +212,6 @@
               <option name="myItemId" value="slbolivia" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slbolivia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activeadmin (v1.0.0.pre@3fb7f0, ruby-1.9.3-p545) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slbolivia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activeadmin (v1.0.0.pre@3fb7f0, ruby-1.9.3-p545) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slbolivia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activeadmin (v1.0.0.pre@3fb7f0, ruby-1.9.3-p545) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="active_admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slbolivia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activeadmin (v1.0.0.pre@3fb7f0, ruby-1.9.3-p545) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="active_admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mixins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slbolivia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activeadmin (v1.0.0.pre@3fb7f0, ruby-1.9.3-p545) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -361,14 +233,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="requests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slbolivia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slboliviaV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slbolivia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slboliviaV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -757,7 +667,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="102" width="1280" height="630" extended-state="0" />
+    <frame x="-127" y="47" width="1378" height="606" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30322582" sideWeight="0.49966148" order="7" side_tool="false" content_ui="tabs" />
@@ -765,11 +675,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2154088" sideWeight="0.679368" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2" sideWeight="0.679368" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5003385" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30952382" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="176" y="278" width="1080" height="391" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -818,11 +728,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/admin/speciality_area.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/state.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="3" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -885,11 +790,6 @@
         <state line="10" column="87" selection-start="225" selection-end="225" vertical-scroll-proportion="0.43367347" vertical-offset="0" max-vertical-offset="392" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/requests/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/requests/_index_admin.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629" />
@@ -930,19 +830,9 @@
         <state line="8" column="1" selection-start="221" selection-end="106005" vertical-scroll-proportion="0.46735394" vertical-offset="0" max-vertical-offset="291" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/active_admin.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="808" selection-end="808" vertical-scroll-proportion="1.0065789" vertical-offset="0" max-vertical-offset="527" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="29" selection-start="651" selection-end="651" vertical-scroll-proportion="0.3848684" vertical-offset="121" max-vertical-offset="425" />
       </provider>
     </entry>
     <entry file="file://C:/wamp/www/colegioo/image_s/fondo.png">
@@ -1015,51 +905,9 @@
         <state line="5" column="38" selection-start="240" selection-end="240" vertical-scroll-proportion="0.3090909" vertical-offset="0" max-vertical-offset="306" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/doc.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="863" column="0" selection-start="125485" selection-end="125485" vertical-scroll-proportion="0.0" vertical-offset="14440" max-vertical-offset="14773">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="25" selection-start="2229" selection-end="2229" vertical-scroll-proportion="0.0" vertical-offset="1644" max-vertical-offset="2023">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/requests/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="11" selection-start="90" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="2169" selection-end="2169" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1683">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/RailsInstaller/Ruby193/lib/ruby/gems/1.9.1/bundler/gems/active_admin-3fb7f03335b1/app/assets/stylesheets/active_admin/_forms.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="355" column="27" selection-start="8245" selection-end="8247" vertical-scroll-proportion="4.5801525" vertical-offset="4835" max-vertical-offset="6290" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/requests/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="9" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1972">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="391">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://D:/RailsInstaller/Ruby193/lib/ruby/gems/1.9.1/bundler/gems/active_admin-3fb7f03335b1/app/assets/stylesheets/active_admin/_mixins.css.scss">
@@ -1076,23 +924,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/requests/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="11" selection-start="90" selection-end="96" vertical-scroll-proportion="0.13454546" vertical-offset="48" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="25" selection-start="2229" selection-end="2229" vertical-scroll-proportion="0.0" vertical-offset="1644" max-vertical-offset="2023">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="29" selection-start="651" selection-end="651" vertical-scroll-proportion="0.42238268" vertical-offset="121" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/active_admin.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="277">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="25" selection-start="383" selection-end="383" vertical-scroll-proportion="-4.076923" vertical-offset="64" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/registration_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="51" selection-start="1782" selection-end="1809" vertical-scroll-proportion="-6.5384617" vertical-offset="561" max-vertical-offset="1683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/requests/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="13" selection-start="3818" selection-end="3818" vertical-scroll-proportion="-1.3461539" vertical-offset="1239" max-vertical-offset="1972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="98" selection-start="2637" selection-end="2637" vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="1802">
+        <state line="64" column="25" selection-start="2267" selection-end="2272" vertical-scroll-proportion="-1.3076923" vertical-offset="1054" max-vertical-offset="2108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/requests/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="22" selection-start="282" selection-end="289" vertical-scroll-proportion="-1.9615384" vertical-offset="204" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="27" selection-start="101831" selection-end="101831" vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="714" selection-end="714" vertical-scroll-proportion="0.51641136" vertical-offset="410" max-vertical-offset="867">
+        <state line="33" column="12731" selection-start="14136" selection-end="14136" vertical-scroll-proportion="0.33193278" vertical-offset="482" max-vertical-offset="1173">
           <folding />
         </state>
       </provider>

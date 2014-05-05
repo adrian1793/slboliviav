@@ -1,38 +1,37 @@
 %p#notice= notice
 
 .container
-  %button.btn.btn-success{:type => "button"}
-    = link_to 'Post New Request', new_request_path, :class => 'button-class'
-
   .row
-
     .col-md-8
-      .panel.panel-info
-        .panel-heading.text-center.h4 Solicitudes
-        .panel-body
-          %p
-            - if @requests.empty?
-              .blank_slate_container
-                %span.blank_slate No hay Solicitudes
-            - else
-              - @requests.each do |request|
+      .h3 Solicitudes
+      %p
+        - if @requests.empty?
+          .blank_slate_container
+            %span.blank_slate No hay Solicitudes
+        - else
+          - @requests.each do |request|
 
-                %hr
+            %hr
 
-                %p
-                  = link_to request.type+' - '+request.speciality_area.full_name, request
+            %p.titases
+              = link_to request.type+' - '+request.speciality_area.full_name, request
 
-                %p= request.case_about
+            %p= request.case_about
 
-                %p= request.monthly_income
+            %p= request.monthly_income
 
-                %p= request.description
+            %p= request.description
+
+            %hr
 
 
-            %br
+        %br
+
     .col-md-3
-      .panel.panel-info
-        .panel-heading.text-center.h4 Perfil
-        .panel-body
-          %p Descripcion general del perfil
+      .md-3prof
+        .h3 Perfil
+        %hr
+        %p Descripcion general del perfil
 
+  .button_new
+    = link_to 'Post New Request', new_request_path, :class => 'button_new'

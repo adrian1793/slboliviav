@@ -7,12 +7,12 @@
           %li= msg
 
   %div.conmed
-    .col-md-3
+    .col-md-4
       .row
         .h4
           Que Nescesita?
           %ul.nav
-            %li.dropdown.open
+            %li.dropdown
               %a.dropdown-toggle{"data-toggle"=>'dropdown'}
                 Quienes somos?
                 %ul.dropdown-menu{:class=>'dropdown-menu-right'}
@@ -44,7 +44,7 @@
       .row
         .h4 Tipo de Persona
         %ul.nav
-          %li.dropdown.open
+          %li.dropdown
             %a.dropdown-toggle{"data-toggle"=>'dropdown'}
               What is a juridical person (legal entity)?
               %ul.dropdown-menu{:class=>'dropdown-menu-right'}
@@ -75,7 +75,7 @@
             = f.collection_select :speciality_area_id, @practice_area.speciality_areas, "id", "name", :placeholder => 'Speciality Area'
 
 
-    .col-md-3
+    .col-md-4
       .row
         %h4
           Case About
@@ -84,7 +84,7 @@
         %h4
           Ingreso Mensual
           %ul.nav
-            %li.dropdown.open
+            %li.dropdown
               %a.dropdown-toggle{"data-toggle"=>'dropdown'}
                 Why do I need to provide my monthly income?
                 %ul.dropdown-menu{:class=>'dropdown-menu-right'}
